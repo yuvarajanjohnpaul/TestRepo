@@ -1,0 +1,10 @@
+{
+"key": "repo",
+"rclass": "remote",
+"description": "smart remote generic test",
+"packageType": "generic",
+"url": "http://localhost:8081/artifactory/api/repositories/repo",
+"username": "admin",
+"password": "password123",
+"repoLayoutRef": "simple-default"
+}
