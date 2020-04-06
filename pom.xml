@@ -12,6 +12,7 @@
   </properties>
   
   <build>
+    <plugins>
   <plugin>
       <artifactId>maven-clean-plugin</artifactId>
       <version>3.1.0</version>
@@ -19,6 +20,7 @@
         <failOnError>false</failOnError>
       </configuration>
     </plugin>
+    </plugins>
   </build>
 
   <dependencies>
