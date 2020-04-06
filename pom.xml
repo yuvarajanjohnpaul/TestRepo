@@ -10,6 +10,14 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <plugin>
+      <artifactId>maven-clean-plugin</artifactId>
+      <version>3.1.0</version>
+      <configuration>
+        <failOnError>false</failOnError>
+      </configuration>
+    </plugin>
 
   <dependencies>
     <dependency>
